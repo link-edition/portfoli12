@@ -1375,9 +1375,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .navbar { border-radius: 20px 20px 0 0; }
 
-  .navbar-list { gap: 20px; }
+  .navbar-list { gap: 10px; }
 
-  .navbar-link { --fs-8: 14px; }
+  .navbar-link { 
+    --fs-8: 13px; 
+    padding: 10px 15px;
+  }
+
+  .article-title { margin-top: 30px !important; }
 
 
 
@@ -1708,14 +1713,17 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 0 20px;
     padding: 0 20px;
     box-shadow: none;
+    z-index: 10;
   }
 
   .navbar-list {
-    gap: 30px;
-    padding: 0 20px;
+    gap: 15px;
+    padding: 0 10px;
   }
 
   .navbar-link { font-weight: var(--fw-500); }
+
+  .article-title { margin-top: 30px !important; }
 
 
 
