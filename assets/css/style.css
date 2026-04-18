@@ -995,6 +995,7 @@ main {
 
 .project-item.active {
   display: block;
+  opacity: 1;
   animation: scaleUp 0.25s ease forwards;
 }
 
